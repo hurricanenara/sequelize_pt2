@@ -1,0 +1,34 @@
+POST http://localhost:3000/students
+Content-Type: application/json
+
+{
+    "name": "bob kim"
+}
+
+###
+
+POST http://localhost:3000/classes
+Content-Type: application/json
+
+{
+    "name": "Math"
+}
+
+###
+
+POST http://localhost:3000/enrollStudent/4
+
+###
+
+POST http://localhost:3000/disenrollStudent
+
+###
+
+POST http://localhost:3000/createStudentAndEnroll
+
+###
+
+GET http://localhost:3000/enrolledClasses/4
+###
+
+GET http://localhost:3000/enrolledStudents/1
