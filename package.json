@@ -1,0 +1,29 @@
+{
+  "name": "sequelize_pt2.nosync",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hurricanenara/sequelize_pt2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hurricanenara/sequelize_pt2/issues"
+  },
+  "homepage": "https://github.com/hurricanenara/sequelize_pt2#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.22",
+    "sequelize-cli": "^6.6.1"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql2": "^3.4.2",
+    "sequelize": "^6.32.1"
+  }
+}
